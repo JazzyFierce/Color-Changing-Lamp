@@ -1,12 +1,12 @@
 //LEDs
-int const redLED = 9;
+int const redLED = 11;
 int const greenLED = 10;
-int const blueLED = 11;
+int const blueLED = 9;
 
 //Potentiometers
-int const redPot = A0; 
+int const redPot = A2; 
 int const greenPot = A1; 
-int const bluePot = A2;
+int const bluePot = A0;
 
 //Potentiometer reading/conversion
 int redValue = 0;
